@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "lib": ["ESNext"],
     "strict": true,
     "esModuleInterop": true,
@@ -9,6 +10,9 @@
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "sourceMap": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "resolveJsonModule": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false
   }
 }
