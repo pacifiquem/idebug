@@ -1,0 +1,28 @@
+{
+  "name": "@idebug/nest",
+  "version": "0.0.1",
+  "description": "[Exprimental] : AI-powered Self-hosted Debugging Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [
+    "idebug",
+    "debugging",
+    "devtools"
+  ],
+  "author": "MURANGWA Pacifique <m.pacifique@idebug.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.6",
+    "express": "^4.21.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  }
+}
