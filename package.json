@@ -2,7 +2,6 @@
   "name": "@idebug/monorepo",
   "version": "0.0.1",
   "description": "[Exprimental] : AI-powered Self-hosted Debugging Platform",
-  "type": "module",
   "private": true,
   "packageManager": "pnpm@9.15.4",
   "license": "MIT",
@@ -13,6 +12,7 @@
     "lint": "eslint --cache .",
     "lint:fix": "eslint --fix --cache .",
     "format": "prettier --write .",
+    "test": "pnpm -r --filter ./tests/** run test",
     "prepare": "husky"
   },
   "lint-staged": {
