@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "[Exprimental] : AI-powered Self-hosted Debugging Platform",
   "main": "dist/index.js",
-  "type": "module",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
@@ -16,6 +15,10 @@
   "author": "MURANGWA Pacifique <m.pacifique@idebug.dev>",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.7"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }

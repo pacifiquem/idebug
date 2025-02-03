@@ -1,0 +1,16 @@
+{
+  "name": "@idebug/node-test",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest --ui"
+  },
+  "devDependencies": {
+    "@idebug/node": "workspace:*",
+    "@types/express": "^5.0.0",
+    "@vitest/ui": "^3.0.4",
+    "express": "^4.21.2",
+    "supertest": "^7.0.0",
+    "vitest": "^3.0.4"
+  }
+}
