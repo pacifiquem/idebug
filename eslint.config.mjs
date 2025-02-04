@@ -7,6 +7,9 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 export default [
   {
     files: ['**/*.{js,mjs,cjs,ts}'],
+    rules: {
+      'prettier/prettier': [{ 'linebreak-style': 'off' }],
+    },
   },
   { languageOptions: { globals: globals.node } },
   pluginJs.configs.recommended,
