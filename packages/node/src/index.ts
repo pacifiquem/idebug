@@ -1,1 +1,3 @@
-export { IDebug } from './core/IDebug';
+import Debugger from './core/Debugger';
+
+export default Debugger;
